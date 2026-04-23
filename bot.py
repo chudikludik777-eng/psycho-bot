@@ -27,7 +27,7 @@ if not BOT_TOKEN or not GROQ_API_KEY:
 
 bot    = Bot(token=BOT_TOKEN)
 dp     = Dispatcher()
-client = Groq(api_key=GROQ_API_KEY, base_url="https://groq.com")
+client = Groq(api_key=GROQ_API_KEY)
 
 # ─────────────────────────────────────────────
 # Хранилище
